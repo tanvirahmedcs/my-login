@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Animated Login Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="login-card">
+      <div class="logo">Your logo</div>
+      <h1>Login</h1>
+      <form>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="username@gmail.com" required />
+        <label for="password">Password</label>
+        <div class="password-wrapper">
+          <input type="password" id="password" placeholder="Password" required />
+          <button type="button" class="toggle-password" aria-label="Toggle password visibility">👁️</button>
+        </div>
+        <a href="#" class="forgot-password">Forgot Password?</a>
+        <button type="submit" class="sign-in-btn">Sign in</button>
+      </form>
+      <div class="divider">Or Continue With</div>
+      <div class="social-buttons">
+        <button class="social-btn google" aria-label="Sign in with Google">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google" />
+        </button>
+        <button class="social-btn github" aria-label="Sign in with GitHub">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" />
+        </button>
+        <button class="social-btn facebook" aria-label="Sign in with Facebook">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Facebook_Logo_(2019).png" alt="Facebook" />
+        </button>
+      </div>
+      <div class="register-text">
+        Don’t have an account yet? <a href="#">Register for free</a>
+      </div>
+    </div>
+    <div class="animation-area">
+      <div class="bird-container">
+        <div class="bird">
+          <div class="bird-body">
+            <div class="bird-face">
+              <div class="bird-eye left"></div>
+              <div class="bird-eye right"></div>
+              <div class="bird-beak"></div>
+              <div class="bird-cheeks"></div>
+            </div>
+            <div class="bird-necklace">
+              <div class="bead"></div>
+              <div class="bead"></div>
+              <div class="bead"></div>
+              <div class="bead"></div>
+              <div class="bead"></div>
+              <div class="bead"></div>
+              <div class="bead"></div>
+              <div class="bead"></div>
+            </div>
+            <div class="bird-wing"></div>
+            <div class="bird-feet"></div>
+          </div>
+        </div>
+        <div class="floating-leaves">
+          <div class="leaf leaf1"></div>
+          <div class="leaf leaf2"></div>
+          <div class="leaf leaf3"></div>
+          <div class="leaf leaf4"></div>
+          <div class="leaf leaf5"></div>
+          <div class="leaf leaf6"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
